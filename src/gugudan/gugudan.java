@@ -1,4 +1,4 @@
-package campus_java;
+package gugudan;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
