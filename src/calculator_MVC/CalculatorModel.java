@@ -2,23 +2,28 @@ package calculator_MVC;
 public class CalculatorModel {
     private double result;
 
-    public void add(double num1, double num2) {
+    public double add(double num1, double num2) {
         result = num1 + num2;
+        return result;
     }
 
-    public void subtract(double num1, double num2) {
+    public double subtract(double num1, double num2) {
         result = num1 - num2;
+        return result;
     }
 
-    public void multiply(double num1, double num2) {
+    public double multiply(double num1, double num2) {
         result = num1 * num2;
+        return result;
     }
 
-    public void divide(double num1, double num2) {
+    public double divide(double num1, double num2) {
         if (num2 != 0) {
             result = num1 / num2;
+            return result;
         } else {
             result = 0;
+            return result;
         }
     }
 

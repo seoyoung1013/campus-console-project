@@ -9,4 +9,6 @@ public class StarModel {
     public int getSize() {
         return size;
     }
+    
+    
 }

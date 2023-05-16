@@ -7,12 +7,13 @@ public class GugudanController {
     private GugudanModel model;
     private GugudanView view;
 
-    public GugudanController(GugudanModel model, GugudanView view) {
-        this.model = model;
-        this.view = view;
-    }
 
-    public void runGugudan() {
+    public GugudanController() {
+    	this.model = new GugudanModel();
+        this.view = new GugudanView();
+	}
+
+	public void runGugudan() {
         int number = getInputNumber();
 
         model.setNumber(number);
